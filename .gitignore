@@ -4,6 +4,8 @@ node_modules/
 # Build output
 dist/
 build/
+apps/*/dist/
+packages/*/dist/
 
 # Coverage
 coverage/
@@ -37,3 +39,8 @@ pnpm-debug.log*
 # Temporary files
 tmp/
 temp/
+
+# Browser tooling
+.vite/
+playwright-report/
+test-results/

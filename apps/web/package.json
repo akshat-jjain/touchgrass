@@ -1,0 +1,16 @@
+{
+    "name": "@touchgrass/web",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host 0.0.0.0",
+        "build": "tsc --noEmit && vite build",
+        "typecheck": "tsc --noEmit",
+        "test": "tsx --test test/*.test.ts"
+    },
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    }
+}
